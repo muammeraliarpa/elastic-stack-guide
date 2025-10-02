@@ -211,7 +211,7 @@ output {
     hosts => ["http://localhost:9200"]
     index => "auth-logs-%{+YYYY.MM.dd}"
     user => "elastic"
-    password => "senin_password"
+    password => "your_password"
   }
 }
 ```
